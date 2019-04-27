@@ -1,0 +1,108 @@
+body {
+    max-width: 100vw;
+    overflow-x: hidden !important;
+    padding: 4vw 6vw;
+}
+
+.top {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    flex-grow: 1;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+}
+
+.navbar-options {
+    flex-grow: 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+
+.navbar-options > * {
+    padding: 0vw 2vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    /* background-color: lightblue; */
+    font-family: 'PT Serif', serif;
+    padding: 32vh 10vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 5;
+}
+
+h1 {
+    font-size: 70px;
+    padding-bottom: 10px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    border-right: 1px solid grey;
+    /* letter-spacing: .15em;  */
+    animation: 
+        typing 3.5s steps(30, end);
+        /* blink-caret .75s step-end infinite; */
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { 
+        width: 0 
+    }
+    to { 
+        width: 100% 
+    }
+  }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: grey; }
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.intro {
+    margin: 10vh 15vw;
+    display: flex;
+}
+
+.profile-pic {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+  } /* ---- particles.js container ---- */
+
+  #particles-js {
+    position: absolute;
+    max-width: 100vw;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
