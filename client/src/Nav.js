@@ -1,5 +1,6 @@
 import React from 'react';
-import './reset.css';
+import './styles/reset.css';
+import './styles/Nav.css';
 
 class Nav extends React.Component {
   constructor() {
@@ -9,12 +10,12 @@ class Nav extends React.Component {
   render() {
     return (
       <nav className="Nav">
-        <div className="fullname">Katie Truong</div>
+        <div className="fullname">katie truong</div>
         <div className="navbar-options">
-            <div>About</div>
-            <div>Porfolio</div>
-            <div>Blog</div>
-            <div>Contact</div>
+          <div>Resume</div>
+          <div>Projects</div>
+          <div>Blog</div>
+          <div>Contact</div>
         </div>
       </nav>
     )
