@@ -47,35 +47,45 @@ nav {
 }
 
 h1 {
+    max-width: 410px;
     font-size: 70px;
     padding-bottom: 10px;
     overflow: hidden; 
     white-space: nowrap; 
     margin: 0 auto; 
-    border-right: 1px solid grey;
-    /* letter-spacing: .15em;  */
-    animation: 
-        typing 3.5s steps(30, end);
-        /* blink-caret .75s step-end infinite; */
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
 }
 
 /* The typing effect */
 @keyframes typing {
-    from { 
-        width: 0 
+    0% { 
+        width: 0;
+        color: white;
     }
-    to { 
+    1% {
+        color: black;
+    }
+    100% { 
+        color: black;
         width: 100% 
     }
   }
 
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: grey; }
-}
 
 h2 {
     font-size: 40px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    color: white;
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
 }
 
 .intro {
