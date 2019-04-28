@@ -176,4 +176,6 @@ h5 {
 .porfolio {
     background-color: #f5f7f9;
     padding: 10vh 20vw;
+    /*REMEMBER TO TAKE THIS ONE OFF */
+    display: none;
 }
