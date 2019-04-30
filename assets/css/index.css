@@ -138,7 +138,7 @@ h2 {
 
 .profile-intro {
     padding: 30px;
-    font-size: 30px;
+    font-size: 2vw ;
     font-weight: 400;
     font-family: 'PT Serif', serif;
     line-height: 45px;
@@ -171,6 +171,22 @@ h5 {
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 3vh;
+}
+
+.front-end > i {
+    color: #8f98e3;
+}
+
+.back-end > i {
+    color: #4bc6b9;
+}
+
+.mobile > i {
+    color: #449dd1;
+}
+
+.data-science > i {
+    color: #F5AF6F;
 }
 
 .porfolio {
@@ -214,4 +230,21 @@ h5 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1vw;
     font-weight: 400;
+}
+
+.resume {
+    padding: 10vh 15vw;
+}
+
+.time-component {
+    width: 30vw;
+    height: auto;
+}
+
+.left {
+    margin: 0vh 0vw;
+}
+
+.right {
+    
 }
