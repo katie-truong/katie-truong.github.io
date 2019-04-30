@@ -175,7 +175,7 @@ h5 {
 
 .porfolio {
     background-color: #f5f7f9;
-    padding: 10vh 20vw;
+    padding: 10vh 15vw;
 }
 
 .projects {
@@ -188,17 +188,30 @@ h5 {
 
 .project {
     background-color: white;
+    box-shadow: 0.1vh 0.1vh 0.1vh 0.1vh #a3afbf;
 }
 
 .project:hover {
-    box-shadow: 0.1vh 0.51vh 0.1vh 0.1vh #a3afbf;
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh #a3afbf;
 }
 
 .project-pic {
-    width: 25vw;
+    width: 30vw;
     height: auto;
 }
 
 .project-info {
     padding: 2vh 2vw;
+}
+
+.project-name {
+    font-family: 'PT Serif', serif;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+.project-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
 }
