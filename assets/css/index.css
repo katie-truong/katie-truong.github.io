@@ -236,6 +236,10 @@ h5 {
     padding: 10vh 15vw;
 }
 
+.timeline {
+    display: none;
+}
+
 .time-component {
     width: 30vw;
     height: auto;
