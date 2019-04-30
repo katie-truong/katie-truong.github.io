@@ -252,3 +252,23 @@ h5 {
 .right {
     
 }
+
+.resume {
+
+}
+
+.resume-button {
+    margin: 0 auto;
+    text-align: center;
+    height: 2vh;
+    width: 15vw;
+    padding: 2vh 2vw !important; 
+    border: 1px solid grey;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    box-shadow: 0.1vh 0.1vh 0.1vh 0.1vh #a3afbf;
+}
+
+.download {
+    display: inline-block;
+}
