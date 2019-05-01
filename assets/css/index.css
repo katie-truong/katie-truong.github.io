@@ -155,6 +155,7 @@ h2 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .about-me > * > p {
@@ -237,25 +238,65 @@ h5 {
 }
 
 .timeline {
-    display: none;
+    position: relative;
+    margin: 0vh auto 10vh auto;
 }
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    background-color: #a3afbf;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
 
 .time-component {
     width: 30vw;
     height: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
+/* .time-component::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  } */
+
+/* Place the container to the left */
 .left {
-    margin: 0vh 0vw;
+    margin-right:0vw; 
+    text-align: right;
 }
-
+  
+/* Place the container to the right */
 .right {
-    
+    margin-left: 40vw !important;
 }
 
-.resume {
-
+.time {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 20px;
 }
+
+.where {
+    font-family: 'PT-Serif', serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
 
 .resume-button {
     margin: 0 auto;
@@ -263,10 +304,15 @@ h5 {
     height: 2vh;
     width: 15vw;
     padding: 2vh 2vw !important; 
-    border: 1px solid grey;
+    border: 1px solid #a3afbf;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px; 
     box-shadow: 0.1vh 0.1vh 0.1vh 0.1vh #a3afbf;
+    border-radius: 0.5rem;
+}
+
+.resume-button:hover {
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh #a3afbf;
 }
 
 .download {
