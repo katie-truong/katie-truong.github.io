@@ -298,7 +298,9 @@ h5 {
 }
 
 .what {
+    font-family: 'Open Sans', sans-serif;
     line-height: 30px;
+    font-weight: 400;
 }
 
 
@@ -311,8 +313,8 @@ h5 {
     border: 1px solid #a3afbf;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px; 
-    box-shadow: 0.1vh 0.1vh 0.1vh 0.1vh #a3afbf;
-    border-radius: 0.5rem;
+    /* box-shadow: 0.1vh 0.1vh 0.1vh 0.1vh #a3afbf; */
+    /* border-radius: 0.5rem; */
 }
 
 .resume-button:hover {
@@ -321,4 +323,20 @@ h5 {
 
 .download {
     display: inline-block;
+}
+
+
+footer {
+    background-color: #2a3439;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-logo {
+    width: 48px;
+    height: 48px;
+    padding: 0px 20px 0px 20px;
 }
