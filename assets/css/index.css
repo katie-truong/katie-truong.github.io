@@ -88,9 +88,9 @@ h1 {
     overflow: hidden; 
     white-space: nowrap; 
     margin: 0 auto; 
-    animation-name: typing;
-    animation-duration: 5s;
-    animation-timing-function: steps(30, end);
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    /* animation-timing-function: steps(30, end); */
     animation-fill-mode: forwards;
 }
 
@@ -109,6 +109,15 @@ h1 {
     }
   }
 
+@keyframes fadeIn {
+    from {
+        color: white;
+    }
+    to {
+        color: black;
+    }
+}
+
 
 h2 {
     font-size: 40px;
@@ -116,11 +125,11 @@ h2 {
     white-space: nowrap; 
     margin: 0 auto; 
     color: white;
-    animation-name: typing;
-    animation-duration: 5s;
-    animation-timing-function: steps(30, end);
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    /* animation-timing-function: steps(30, end); */
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    /* animation-delay: 2s; */
 }
 
 .intro {
@@ -311,6 +320,7 @@ h5 {
     width: 250px;
     padding: 2vh 2vw !important; 
     border: 1px solid #a3afbf;
+    border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px; 
     /* box-shadow: 0.1vh 0.1vh 0.1vh 0.1vh #a3afbf; */
