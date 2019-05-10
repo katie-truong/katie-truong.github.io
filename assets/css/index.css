@@ -19,7 +19,7 @@ a {
     text-decoration: none; /* no underline */
 }
 
-.nav > *:hover {
+nav > *:hover {
     color: #526173;
 }
 
